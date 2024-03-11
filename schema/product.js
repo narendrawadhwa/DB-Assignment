@@ -32,7 +32,7 @@ const productSchema = new mongoose.Schema(
       type: ObjectId,
       ref: 'Discount',
     },
-    deleted_at: {
+    deletedAt: {
       type: Date,
       default: null,
     },

@@ -11,7 +11,7 @@ const productCategorySchema = new mongoose.Schema(
       type: String,
       trim: true,
     },
-    deleted_at: {
+    deletedAt: {
       type: Date,
       default: null,
     },

@@ -19,7 +19,7 @@ const discountSchema = new mongoose.Schema(
       type: Boolean,
       default: true,
     },
-    deleted_at: {
+    deletedAt: {
       type: Date,
       default: null,
     },
